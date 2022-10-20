@@ -1,0 +1,97 @@
+
+@font-face{
+    font-family: 'Lora', serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Work Sans', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Work+Sans&display=swap);
+}
+
+h1, h2, h3{
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Lora', serif;
+}
+
+h4{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    padding: 30px 0px ;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    padding-right: 40px;
+    padding: 10px;
+    font-size: 12px;
+    color: black;
+}
+nav a:hover{
+    background-color: #529F0F;
+    color: #fff;
+}
+.logo{
+    position: absolute;
+    align-items:center ;
+    margin-left: 40%;
+}
+.img1{
+    width: 120px;
+    margin: 0;
+    padding: 20px;
+}
+.usd{
+    font-size: 12px;
+    cursor: pointer;
+    padding: 30px;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.principal{
+    background-image: url(/img/slider-2.jpg);
+    background-size: cover;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.ofer1{
+    background-image: url(/img/banner-1.png);
+    width: 20%;
+    background-size:fixed;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+.oferta1{
+}
+    
+.ofer2{
+
+}
