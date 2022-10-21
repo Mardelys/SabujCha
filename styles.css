@@ -45,6 +45,7 @@ body{
     padding: 10px;
     font-size: 12px;
     color: black;
+    margin-right: 20px;
 }
 nav a:hover{
     background-color: #529F0F;
@@ -85,6 +86,7 @@ h1{
     display: flex;
     justify-content: center;
     margin: 70px;
+    cursor: pointer;
 }
 .ofer1{
     background-image: url(/img/banner-1.png);
@@ -215,9 +217,10 @@ color: #529F0F;
     font-size: 18px;
     color: #333;
     margin: 100px;
+    padding-bottom:30px ;
 }
 .hoja-te, p{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .hoja{
     margin-bottom: 20px;
@@ -230,6 +233,7 @@ color: #529F0F;
 .customer{
     font-size:13px;
     color: #575757;
+    
 }
 .new-productss{
     background-color: #f3f2f2;
@@ -275,6 +279,7 @@ color: #529F0F;
 }
 .img-grid{
     width: 300px;
+    cursor: pointer;
 }
 .news{
     padding: 60px 0px 50px 0px;
@@ -300,6 +305,7 @@ color: #529F0F;
 .read-more{
     font-size: 11px;
     color: #333;
+    cursor: pointer;
 }
 .grid-reference{
     display: flex;
@@ -308,6 +314,7 @@ color: #529F0F;
 }
 .img-reference{
     margin: 20px;
+    cursor: pointer;
 }
 h4{
     font-size:15px ;
@@ -340,6 +347,7 @@ footer{
     font-size: 13px;
     cursor: pointer;
     font-family: 'Lora';
+    margin-top: 30px;
 }
 .fa-heart{
     color: red;
