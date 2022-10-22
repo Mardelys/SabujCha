@@ -43,6 +43,8 @@ body{
     
 }
 .menu li a{
+    width: 40%;
+    display: flex;
     text-decoration: none;
     padding-right: 40px;
     padding: 10px;
@@ -50,23 +52,30 @@ body{
     color: black;
     margin-right: 20px;
 }
+.fa-shopping-cart{
+    font-size: 15px;
+}
+.fa-bars{
+    display: none;
+    
+}
 nav a:hover{
     background-color: #529F0F;
     color: #fff;
 }
 /*------------------Logo en el header--------------------*/
 .logo{
-    position: absolute;
-    align-items:center ;
-    margin-left: 40%;
+    margin-right:30%;
+    align-self: center;
 }
 .img1{
-    width: 120px;
+    width: 70%;
     margin: 0;
     padding: 20px;
 }
 /*------------------USD--------------------*/
 .usd{
+    display: flex;
     font-size: 12px;
     cursor: pointer;
     padding: 30px;
@@ -377,7 +386,7 @@ footer{
     color: red;
 }
 /*-----------------Media Query--------------------*/
-@media (max-width: 600px) { 
+@media (max-width: 780px) { 
     *{
         margin: 0;
     }
@@ -391,6 +400,11 @@ footer{
     }
     nav{
         display: none;
+    }
+    .fa-bars{
+        display: flex ;
+        font-size: 20px;
+        margin-left:10px ;
     }
     .logo{
         margin: 0px;
@@ -439,11 +453,15 @@ footer{
     .latest-products{
         display: flex;
         width: 100%;
-        height: 500px;
+        height: 600px;
     }
     .card-products{
         display: flex;
     }
+    .align-product, .titulo-products{
+        margin: auto;
+    }
+
     .titulo-h2{
         font-size: 25px;
         text-align: center;
@@ -452,19 +470,23 @@ footer{
         padding-top: 40px;
     }
     .card-products{
-        grid-template-columns: repeat(auto-fit, minmax(300px,1fr) );
+        grid-template-columns: repeat(auto-fit, minmax(400px,1fr) );
         align-content: center;
         width: 100%;
+        margin: auto;
+        margin-top: 20px;
     }
-    .producto{
-        width: 300px;
+    .producto, .img-producto, .img-prooducto1, .img-producto2, .img-producto3, .img-producto4 {
+        width: 350px;
+        background-position: center;
+        height: 300px;
     }
     .form-suscribe{
         height: 180px;
         padding-top: 50px;
     }
     .input-email{
-        width: 120px;
+        width: 160px;
         
     }
     .suscribir{
@@ -472,7 +494,7 @@ footer{
         font-size: 11px;
     }
     .new-productss{
-        height: 850px;
+        height: 950px;
     }
     .display-none{
         display: none;
@@ -480,16 +502,53 @@ footer{
     .product-grid{
         display: flex;
         flex-direction: column;
-        align-content: center;
-        margin: auto;
+        margin-left: 20% ;
+    }
+    .img-grid{
+        margin-top: 20px;
+        width: 80%;
     }
     .latest-products-news{
-        height: 1600px;
+        height: auto;
+        padding: 20px;
         background-size: auto;
+        
     }
-    
     .p-grid{
         padding: 0;
+        width: 50%;
+    }
+    .img-reference{
+        padding: 0;
+    }
+    .grid-reference{
+        margin:0px
+    }
+    .list-footer{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .footer{
+        margin-bottom: 20px;
+    }
+    .footer-list{
+        line-height: 25px;
+        margin-bottom: 20px;
+        font-size: 15px;
+        align-self: flex-start;
+        margin-left: auto;
+    }
+    ul, .footer-list{
+        margin: 0;
+    }
+    .footer-end{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 }
 
