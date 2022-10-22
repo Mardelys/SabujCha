@@ -140,9 +140,9 @@ Estructuré el CSS en Desktop First por lo tanto usaré la media query "@media (
 
 10.- Al footer le cambié la propiedad para ordenarlo, le coloqué flexbox, no tuve gran problema al realizar esta sección.
 
-11.- La sección final del footer le coloque display flex y le especifiqué flex-direction:column para poder llegar al resultado obtenido, y al 
+11.- La sección final del footer le coloque display flex y le especifiqué flex-direction:column para poder llegar al resultado obtenido, y al texto le añadí la propiedad text- align:center;
 ![84421bc8-21d7-4ac8-9802-a60c6bc067c1](https://user-images.githubusercontent.com/114613889/197328316-8a4d5b32-8090-4b8b-a17a-1119f9956e74.jpg)
-texto le añadí la propiedad text- align:center;
+
 
 **Repositorio y despliegue**
 Realicé los commit de el avance, actualicé el repositorio y el readme del paso a paso y luego hice el despliegue del repositorio en netlify puesto que untente por github y tuve un error.
