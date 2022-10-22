@@ -5,7 +5,7 @@
     font-family: 'Work Sans', sans-serif;
     src: url(https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&family=Work+Sans&display=swap);
 }
-h1, h2, h3, h4{
+h1, h2,  h4{
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     }
@@ -14,7 +14,7 @@ p, u{
     font-family: 'Lora', serif;
 }
 
-.work,.p-grid,.read-more{
+.work,.p-grid,.read-more, h3,.price{
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
 
@@ -137,6 +137,7 @@ color: #529F0F;
     text-align: center;
 }
 .titulo-products,.new-products{
+    font-family: 'Work Sans';
     text-align: center;
     padding-top: 80px;
     color: #333333;
@@ -232,11 +233,15 @@ color: #529F0F;
     margin: 100px;
     padding-bottom:30px ;
 }
-.hoja-te, p{
+.hoja-te{
     margin-bottom: 20px;
+    text-align: center;
 }
 .hoja{
     margin-bottom: 20px;
+    text-align: center;
+    margin: 0%;
+
 }
 .gregory{
     font-size: 11px;
@@ -304,7 +309,9 @@ color: #529F0F;
     background-image: url(/img/bg-1.jpg);
     background-size: cover;
     height: 700px;
+    align-content: center;
 }
+
 .fecha{
     color: #529F0F;
     font-size: 13px;
@@ -369,11 +376,12 @@ footer{
 .fa-heart{
     color: red;
 }
-/*-----------------Media Query, a la de Dios XD--------------------*/
-@media (max-width: 480px) { 
+/*-----------------Media Query--------------------*/
+@media (max-width: 600px) { 
     *{
         margin: 0;
     }
+
     body{
         width: 95%;
         margin: auto;
@@ -385,20 +393,19 @@ footer{
         display: none;
     }
     .logo{
-        position: absolute;
         margin: 0px;
     }
     .img1{
         width: 120px;
     }
     .usd{
-        position: relative;
-        margin-left: 60%;
+        margin-left: auto;
     }
     h1{
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
     }
+    
     .principal{
         display: flex;
         width: 100%;
@@ -406,21 +413,86 @@ footer{
         margin-top: 0%;
     }
     .container-oferta{
+        align-items: center;
         flex-direction: column;
-        margin: 40px;
+        margin: 20px;
+        justify-content: center;
+        margin: auto;
     }
     .ofer1,.ofer2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0%;
         margin-bottom: 20px;
-        width: 330px;
-        height: 140px;
+        width: 400px;
+        height: 200px;
+        
     }
     .text-ofert{
-        margin: 50px 0px 0px 16px;
+        margin: 80px 0px 0px 0px;
         line-height: 20px;
     }
+    .work{
+        font-size: 12px;
+    }
+    .latest-products{
+        display: flex;
+        width: 100%;
+        height: 500px;
+    }
+    .card-products{
+        display: flex;
+    }
+    .titulo-h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .titulo-products,.new-products{
+        padding-top: 40px;
+    }
+    .card-products{
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr) );
+        align-content: center;
+        width: 100%;
+    }
+    .producto{
+        width: 300px;
+    }
+    .form-suscribe{
+        height: 180px;
+        padding-top: 50px;
+    }
+    .input-email{
+        width: 120px;
+        
+    }
+    .suscribir{
+        padding: 15px 10px 15px 10px;
+        font-size: 11px;
+    }
+    .new-productss{
+        height: 850px;
+    }
+    .display-none{
+        display: none;
+    }
+    .product-grid{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: auto;
+    }
+    .latest-products-news{
+        height: 1600px;
+        background-size: auto;
+    }
+    
+    .p-grid{
+        padding: 0;
+    }
 }
-    
-    
+
 
 @media (min-width: 1024px){
 
